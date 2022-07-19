@@ -1,0 +1,43 @@
+.transactions {
+    height: calc(45vh - 16px);
+    max-height: calc(45vh - 16px);
+    overflow-y: auto;
+}
+
+.transactions__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    /* border: 1px solid #dddddd; */
+    text-align: left;
+    padding: 12px;
+}
+
+tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+tr:last-child {
+    border-bottom: none;
+}
+
+tr:first-child {
+    border-bottom: none;
+}
+
+.source__expenses {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 24px;
+    overflow-x: auto;
+}

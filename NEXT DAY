@@ -1,0 +1,28 @@
+[ ] UI for analysis screen
+[ ] Develop analysis screen
+[ ] Add boiler plate code for redux and redux-saga
+[ ] Plan about states
+[ ] Set up Redux and redux saga
+[ ] Move kachra logic to redux saga
+[X] Statement and activity api
+[X] Analysis usecases and apis
+    [X] /transactions?startDate={}&endDate={}&category={}&source={}
+    [X] /snapshot - GET, POST, DELETE
+    [X] /analyse/snapshot?s1={}&s2={}
+    [X] /analyse/source?timeFrame={}
+    [X] /analyse/category?timeFrame={}
+
+
+
+[X] Create manage screen UI
+    [X] Add categories
+    [X] List categories
+    [X] Delete categories
+    [X] Add sources
+    [X] List sources
+    [X] Delete sources
+
+[X] Add services for categories
+[X] Add services for sources
+
+[X] Integrate all services with UI
