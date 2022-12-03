@@ -26,7 +26,7 @@ const HeaderWrapper = ({collapsed, setCollapsed}) => {
                 className: 'trigger',
                 onClick: () => setCollapsed(!collapsed),
             })}
-            <span style={{display: 'inline-flex', justifyContent: 'flex-end', alignItems: 'center', gap: '16px', height: '100%', width: '95%'}}>
+            <span style={{display: 'inline-flex', justifyContent: 'flex-end', alignItems: 'center', gap: '16px', height: '100%', width: '90%'}}>
                 <Avatar icon={<UserOutlined />}>User</Avatar>
                 <span>{"John Doe"}</span>
                 <Button type="primary" onClick={() => dispatch(logoutUser())}>Logout</Button>
