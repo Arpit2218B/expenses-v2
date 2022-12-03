@@ -1,4 +1,4 @@
-const BASE_URL = 'http://localhost:3000';
+const BASE_URL = 'https://expenses-2218.onrender.com/';
 
 const createEndpoint = (url) => `${BASE_URL}/${url}`;
 
