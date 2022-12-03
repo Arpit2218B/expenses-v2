@@ -16,13 +16,13 @@ const ExpenseChart = () => {
         <Card style={{height: '35vh'}}>
             <div className="transactions__header">
                 <h2>Current Balance</h2>
-                <h3>20,345</h3>
+                {/* <h3>20,345</h3> */}
             </div>
             <div className="source__expenses">
                 {data && data.map(d => (
-                    <Card key={d._id} style={{width: '150px', aspectRatio: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column'}}>
+                    <Card key={d._id} style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column'}}>
                         <h3><center>{d.name}</center></h3>
-                        <h1>{d.initialAmount}</h1>
+                        <h1>{Math.round((d.initialAmount + Number.EPSILON) * 100) / 100}</h1>
                     </Card>
                 ))}
             </div>
